@@ -1,0 +1,21 @@
+kind: Deployment
+apiVersion: apps/v1
+metadata:
+  name: happyapp
+  labels:
+    app: happyapp
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: happyapp
+  template:
+    metadata:
+      labels:
+        app: happyapp
+    spec:
+      containers:
+        - name: happy-demo
+          image: lnc2244/happy-demo
+          ports:
+          - containerPort: 80
