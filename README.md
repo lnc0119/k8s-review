@@ -1,7 +1,11 @@
 
 
-## k8s測試報告
-本專案主要針對kubernates的教學進行學習、測試以及紀錄
+## Kubernetes測試報告
+
+- 本專案主要針對kubernates的教學進行學習、測試以及紀錄
+- 建立Spring boot專案
+- 產生docker image
+- 使用minikube對外溝通
 
 [Tutorials Website](https://kubernetes.io/docs/tutorials)
 ## Tool Install
@@ -42,7 +46,7 @@ minikube tunnel
 kubectl expose deployment happyapp --name=happyapp-service --port --target-pirt=8080 --type=LoadBalancer
 
 ```
-12. 取得對外購通localhost
+12. 取得對外溝通localhost
 ```
 minikube service happyapp-service --url 
 --> http://127.0.0.1:56506
