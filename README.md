@@ -5,7 +5,7 @@
 - 本專案主要針對kubernates的教學進行學習、測試以及紀錄
 - 建立Spring boot專案
 - 產生docker image
-- 使用minikube對外溝通
+- 使用kubernetes minikube對外溝通
 
 [Tutorials Website](https://kubernetes.io/docs/tutorials)
 ## Tool Install
