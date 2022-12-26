@@ -33,6 +33,7 @@ minikube start
 ```
 ![minikube start](https://github.com/lnc0119/k8s-review/blob/8d9ddecc4527b98ffc651b4dc04924f76a67e148/src/images/demo/minikube-start.png)
 8. 編輯.yaml檔案以產生deployment/pods(如下)
+
 9. 啟用.yaml檔案
 ```
 kubectl apply -f happy-app-deployment.yaml
