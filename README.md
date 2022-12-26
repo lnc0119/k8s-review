@@ -27,6 +27,7 @@ brew install kubectl
 6. push to repository
 ---
 (terminal)
+
 7. 開啟minikube 並create deployment(pod)
 ```
 minikube start
@@ -47,12 +48,9 @@ kubectl logs [pods name]
 ```
 minikube tunnel
 kubectl expose deployment happyapp --name=happyapp-service --port --target-pirt=8080 --type=LoadBalancer
-
 ```
-<<<<<<< HEAD
 ![kubectl expose](https://github.com/lnc0119/k8s-review/blob/8d9ddecc4527b98ffc651b4dc04924f76a67e148/src/images/demo/kubectl-expose.png)
-=======
->>>>>>> 8d9ddecc4527b98ffc651b4dc04924f76a67e148
+
 12. 取得對外溝通localhost
 ```
 minikube service happyapp-service --url 
@@ -61,7 +59,7 @@ minikube service happyapp-service --url
 ![get url](https://github.com/lnc0119/k8s-review/blob/8d9ddecc4527b98ffc651b4dc04924f76a67e148/src/images/demo/minikube-get-url.png)
 13. 在瀏覽器中輸入[localhost]/[springboot url]
 ![final demo](https://github.com/lnc0119/k8s-review/blob/8d9ddecc4527b98ffc651b4dc04924f76a67e148/src/images/demo/final-demo.png)
-![]()
+
 
 
 
